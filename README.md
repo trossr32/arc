@@ -1,2 +1,0 @@
-# arc
-ARC dev site
