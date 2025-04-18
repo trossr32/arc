@@ -1,0 +1,189 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Ocean Wave Coaster Set",
+      "description": "Set of 4 handcrafted resin coasters with stunning ocean wave designs. Each piece is unique and finished with a high gloss coating.",
+      "price": 35.99,
+      "featured": true,
+      "images": [
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": true,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        }
+      ],
+      "etsy": "https://www.etsy.com"
+    },
+    {
+      "id": 2,
+      "title": "Geode Jewelry Tray",
+      "description": "Beautiful geode-inspired jewelry tray with gold accents. Perfect for storing rings, earrings, and small accessories.",
+      "price": 45.99,
+      "featured": true,
+      "images": [
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": true,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        }
+      ],
+      "etsy": "https://www.etsy.com"
+    },
+    {
+      "id": 3,
+      "title": "Abstract Resin Wall Art",
+      "description": "Original abstract resin artwork on canvas, featuring vibrant colors and metallic accents. Ready to hang with hardware included.",
+      "price": 129.99,
+      "featured": true,
+      "images": [
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": true,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        }
+      ],
+      "etsy": "https://www.etsy.com"
+    },
+    {
+      "id": 4,
+      "title": "Botanical Bookmark Set",
+      "description": "Set of 3 pressed flower resin bookmarks. Each bookmark contains real dried flowers preserved in crystal clear resin.",
+      "price": 25.99,
+      "featured": false,
+      "images": [
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": true,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        }
+      ],
+      "etsy": "https://www.etsy.com"
+    },
+    {
+      "id": 5,
+      "title": "Marble Effect Serving Board",
+      "description": "Elegant serving board with marble-inspired resin finish. Food-safe and perfect for cheese, appetizers, or desserts.",
+      "price": 69.99,
+      "featured": false,
+      "images": [
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": true,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        }
+      ],
+      "etsy": "https://www.etsy.com"
+    },
+    {
+      "id": 6,
+      "title": "Crystal Clear Resin Desk Clock",
+      "description": "Modern desk clock encased in crystal clear resin with gold accents. Battery operated and features a silent quartz movement.",
+      "price": 54.99,
+      "featured": false,
+      "images": [
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": true,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        },
+        {
+          "imageUrl": "./public/images/ucunt.jpg",
+          "coverImage": false,
+          "alt": "You cunt"
+        }
+      ],
+      "etsy": "https://www.etsy.com"
+    }
+  ]
+}
