@@ -46,7 +46,7 @@ const Products: React.FC = () => {
                     onClick={() => setSelectedProduct(product)}
                   >
                     <img 
-                      src={product.images.find(img => img.coverImage)?.imageUrl} 
+                      src={`${import.meta.env.BASE_URL}${product.images.find(img => img.coverImage)?.imageUrl}`} 
                       alt={product.images.find(img => img.coverImage)?.alt}
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />
@@ -91,7 +91,7 @@ const Products: React.FC = () => {
                 {selectedProduct.images.map((image, index) => (
                   <div key={index} className="aspect-w-4 aspect-h-3">
                     <img 
-                      src={image.imageUrl} 
+                      src={`${import.meta.env.BASE_URL}${image.imageUrl}`} 
                       alt={image.alt}
                       className="w-full h-full object-cover rounded-lg"
                     />

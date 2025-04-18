@@ -10,7 +10,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
     <div className="bg-white rounded-lg overflow-hidden shadow-md transition-all duration-300 hover:shadow-xl">
       <div className="h-64 overflow-hidden">
         <img 
-          src={product.images.find(img => img.coverImage)?.imageUrl} 
+          src={`${import.meta.env.BASE_URL}${product.images.find(img => img.coverImage)?.imageUrl}`} 
           alt={product.title} 
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
         />
