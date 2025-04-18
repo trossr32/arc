@@ -6,7 +6,7 @@ import Privacy from './pages/Privacy';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/arc">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
