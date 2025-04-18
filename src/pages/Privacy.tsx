@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 
 const Privacy: React.FC = () => {
-  return (
+  // Scroll to the top of the page when the component is mounted
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+    
+    return (
     <>
       <Navbar />
       <div className="min-h-screen bg-gray-50 pt-32 pb-16">
