@@ -1,6 +1,7 @@
 import React from 'react';
 import { Instagram, Facebook, Pointer as Pinterest } from 'lucide-react';
 import { HashLink } from 'react-router-hash-link';
+import { Link, useLocation } from 'react-router-dom';
 
 // Custom scroll function to offset the navbar height
 const scrollWithOffset = (el: HTMLElement) => {
@@ -35,14 +36,14 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="./" className="text-gray-400 hover:text-gold-500 transition-colors duration-300">Home</a></li>
+              <li><a href="/" className="text-gray-400 hover:text-gold-500 transition-colors duration-300">Home</a></li>
               <li>
-                <HashLink smooth to="./#about" scroll={scrollWithOffset} className={linkClasses}>About</HashLink>
+                <HashLink smooth to="/#about" scroll={scrollWithOffset} className={linkClasses}>About</HashLink>
               </li>
-              <li><HashLink smooth to="./#featured" scroll={scrollWithOffset} className={linkClasses}>Featured</HashLink></li>
-              <li><a href="./products" className="text-gray-400 hover:text-gold-500 transition-colors duration-300">Products</a></li>
-              <li><HashLink smooth to="./#contact" scroll={scrollWithOffset} className={linkClasses}>Contact</HashLink></li>
-              <li><a href="./privacy" className="text-gray-400 hover:text-gold-500 transition-colors duration-300">Privacy Policy</a></li>
+              <li><HashLink smooth to="/#featured" scroll={scrollWithOffset} className={linkClasses}>Featured</HashLink></li>
+              <li><Link to="/products" className={linkClasses}>Products</Link></li>
+              <li><HashLink smooth to="/#contact" scroll={scrollWithOffset} className={linkClasses}>Contact</HashLink></li>
+              <li><Link to="/privacy" className={linkClasses}>Privacy Policy</Link></li>
             </ul>
           </div>
           
