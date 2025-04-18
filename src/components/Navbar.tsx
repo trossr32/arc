@@ -76,22 +76,22 @@ const Navbar: React.FC = () => {
         >
           <ul className="flex flex-col md:flex-row md:space-x-8 p-2 lg:p-0">
             <li>
-              <HashLink smooth to="/#about" scroll={scrollWithOffset} className={linkClasses} onClick={() => setMenuOpen(false)}>
+              <HashLink smooth to="./#about" scroll={scrollWithOffset} className={linkClasses} onClick={() => setMenuOpen(false)}>
                 About
               </HashLink>
             </li>
             <li>
-              <HashLink smooth to="/#featured" scroll={scrollWithOffset} className={linkClasses} onClick={() => setMenuOpen(false)}>
+              <HashLink smooth to="./#featured" scroll={scrollWithOffset} className={linkClasses} onClick={() => setMenuOpen(false)}>
                 Featured
               </HashLink>
             </li>
             <li>
-              <Link to="/products" className={linkClasses} onClick={() => setMenuOpen(false)}>
+              <Link to="./products" className={linkClasses} onClick={() => setMenuOpen(false)}>
                 Products
               </Link>
             </li>
             <li>
-              <HashLink smooth to="/#contact" scroll={scrollWithOffset} className={linkClasses} onClick={() => setMenuOpen(false)}>
+              <HashLink smooth to="./#contact" scroll={scrollWithOffset} className={linkClasses} onClick={() => setMenuOpen(false)}>
                 Contact
               </HashLink>
             </li>
